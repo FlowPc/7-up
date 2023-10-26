@@ -1,0 +1,328 @@
+*
+{
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  font-family: helvetica neue,Helvetica,Arial,sans-serif;
+}
+
+nav
+{
+  display: flex;
+  background-color: #009e5f;
+  height:50px;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  font-family: helvetica neue,Helvetica,Arial,sans-serif;
+}
+.logo_div img
+{
+  width: 100px;
+}
+
+.list_items ul 
+{
+display: flex;
+}
+
+.list_items li
+{
+  color: #fff;
+  margin: 18px 20px;
+  font-weight: bold;
+}
+
+.section_one
+{
+  display: flex;
+  padding: 10px;
+}
+
+.section_left
+{
+  text-align: center;
+}
+
+.section_left h2
+{
+  font-weight: bold;
+  font-size: 30px;
+  color: #009e5f;
+}
+
+.sevenup_button
+{
+  padding-top: 20px;
+}
+
+.sevenup_button button
+{
+  padding: 15px 45px;
+  border: 3px solid #009e5f;
+  background-color: transparent;
+  color:  #009e5f;
+  font-weight: bolder;
+
+
+}
+.section_left img
+{
+ width: 350px;
+}
+
+.section_two img
+{
+  width: 150%;
+  height: auto;
+}
+
+.section_second_banner
+{
+  background-image: url(Image/7up-simple-banner.webp);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+.section_second_banner_text
+{
+  padding: 200px 0px 0px 100px;
+  color: #fff;
+}
+
+.section_second_banner_text h1
+{
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.real {
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+
+.now{
+  font-size: 30px;
+  padding-bottom: 7px;
+  font-weight: bold;
+}
+.section_two_btn{
+  padding-top: 20px;
+}
+
+.section_two_btn button
+{
+  padding: 20px 20px;
+  border: none;
+  color: #009e5f;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.section_three
+{
+  background-image: url(Image/check1.jpg);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.section_three_btn
+{
+ padding-top: 260px;
+}
+
+.section_three_btn button
+{
+  padding: 30px 70px;
+  color: #fff;
+  background-color: #fe5887;
+  font-size: 35px;
+  font-weight:  bolder;
+  border: none;
+}
+
+.section_four
+{
+  background-image: url(Image/green.jpeg);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.section_four_btn
+{
+  padding-top: 260px;
+}
+
+.section_four_btn button{
+  padding: 30px 70px;
+  color: #fff;
+  background-color: #6ba13f;
+  font-size: 35px;
+  font-weight:  bolder;
+  border: none;
+}
+
+.section_five
+{
+  background-image: url(Image/adda.jpeg);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.section_five_btn{
+  padding-top: 260px;
+}
+
+.section_five_btn button{
+  padding: 30px 70px;
+  color: #fff;
+  background-color: #c064ac;
+  font-size: 35px;
+  font-weight:  bolder;
+  border: none;
+}
+
+.triple_image
+{
+  display: flex;
+  
+}
+
+.triple_image_one 
+{
+  padding: 10px 0px 0px 10px;
+  height: 600px;
+  margin: 10px;
+  box-shadow: black;
+  width: 700px;
+}
+
+.triple_image_one img{
+  background-color: #009e5f;
+  width: 150px;
+  justify-content: space-between;
+  box-shadow: black;
+  margin: 10px;
+
+}
+
+.triple_image_one .the_one
+{
+ height: 250px;
+ 
+}
+.triple_image_one .the_two{
+  height: 300px;
+  
+
+}
+.triple_image_one .the_three{
+  height: 250px;
+}
+
+
+.web_cature{
+  padding: 10px 0px 0px 10px;
+}
+.web_cature img{
+  width: 500px;
+}
+
+.side_triple
+{
+  display: flex;
+ padding: 90px;
+  background-color: #ececec;
+  width: 50%;
+}
+
+.side_triple img{
+  width: 98px;
+  height: 160px;
+}
+
+.side_triple h2
+{
+  padding: 30px 20px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #818182;
+  width: 50px;
+}
+
+.make_make{
+  display: flex;
+  padding-left: 20px;
+  color: #818182;
+}
+.make_make img{
+  width: 20px;
+  height: 20px;
+}
+.make_make p{
+  padding-left: 10px;
+}
+
+.side_triple .last_text{
+  padding-top: 10px;
+  color: #818182;
+
+}
+
+.side_triple p
+{
+padding-top: 3px;
+font-size: small;
+}
+
+.make_btn{
+  padding-top: 30px;
+}
+
+.make_btn button{
+  padding: 10px 25px;
+  border: 3px solid #009e5f;
+  color: #009e5f;
+  background-color: transparent;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.last_image{
+  background-image: url(Image/last_image.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  font-family: 'bourbon';
+}
+
+.last_image h1{
+color: #FFFFFF;
+background: red;
+align-items: center;
+}
+
+.social
+{
+ 
+}
+
+.social .social_crew ul{
+  
+  display: flex;
+}
+
+.social_crew ul li{
+  text-align: center;
+}
+
+@media  screen and (max: width 768px);
+  
