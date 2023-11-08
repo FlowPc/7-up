@@ -296,33 +296,31 @@ font-size: small;
   font-size: 15px;
 }
 
-.last_image{
+footer{
   background-image: url(Image/last_image.jpg);
+  height: 300px;
   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.social_media img{
+  background: #030b08;
+}
+
+
+@media  screen and (max-width: 768px){
+nav{
+  width: 30%;
+
+}
+
+.section_one{
   width: 100%;
-  height: 700px;
-  font-family: 'bourbon';
 }
 
-.last_image h1{
-color: #FFFFFF;
-background: red;
-align-items: center;
+.section_left{
+  width: 8;
 }
 
-.social
-{
- 
 }
-
-.social .social_crew ul{
-  
-  display: flex;
-}
-
-.social_crew ul li{
-  text-align: center;
-}
-
-@media  screen and (max: width 768px);
   
